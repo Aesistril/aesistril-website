@@ -27,24 +27,24 @@ and then link it! Many fonts have separate files for each style
 
 @font-face {
     font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator);
+    src: url(/files/fonts/pixeloperator/PixelOperator.ttf);
 }
 
 @font-face {
     font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator-Bold);
+    src: url(/files/fonts/pixeloperator/PixelOperator-Bold.ttf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator-Bold);
+    src: url(/files/fonts/pixeloperator/PixelOperator-Bold.ttf);
     font-style: italic;
 }
 
 @font-face {
     font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator-Bold);
+    src: url(/files/fonts/pixeloperator/PixelOperator-Bold.ttf);
     font-style: italic;
     font-weight: bold;
 }
