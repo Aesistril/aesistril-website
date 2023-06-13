@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/base.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="/files/oneko/oneko.js"></script>
+        <div id="container">
+            <div id="headerArea">
+                <div id="header"></div>
+                <nav id="navbar" style="margin-bottom: 10px;">
+                    <ul>
+                        {{#navbar}}
+                        <li><a href="{{href}}">{{label}}</a></li>
+                        {{/navbar}}
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="flex">
+                
+                <main>
+                    {{{main}}}
+                </main>
+                
+            <aside id="rightSidebar" style="margin-left: 10px;">
+            {{{sidebar-content-up}}}
+            <ul>
+            {{#sidebar-links}}
+            <li><a href="{{{href}}}" target="{{{target}}}">{{{label}}}</a></li>
+            {{{nested}}}
+            {{/sidebar-links}}
+            </ul>
+            {{{sidebar-content-down}}}
+        </aside></div>
+      <footer id="footer" style="margin-top: 10px;">{{{footer}}}</footer>
+        </div>
+    <div id="container" style="justify-content: center; align-items: center; display: flex; margin-top: 10px;">
+        {{#buttons}}
+        <a href="{{{href}}}"><img src="{{{imgsrc}}}" width="{{{width}}}" height="{{{height}}}"></a>
+        {{/buttons}}
+        {{{buttons_container_html}}}
+    </div>
+  </body>
+</html>

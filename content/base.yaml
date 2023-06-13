@@ -1,0 +1,49 @@
+---
+baseyaml: |
+  sidebar-links:
+    - href: https://sadgrlonline.github.io/html-cheatsheet/
+      target: _blank
+      label: HTML Cheatsheet
+      nested: null
+    - href: https://sadgrl.online/webmastery/webmaster-links.html
+      target: _blank
+      label: Webmaster Links
+      nested: <ul>
+        <li><a href="https://sadgrl.online/webmastery/downloads/tiledbgs.html"target="_blank">Tiled BGs</a></li>
+        <li><a href="https://sadgrl.online/webmastery/downloads/fonts.html" target="_blank">Fonts</a></li>
+        </ul>
+  sidebar-content-up: <h2>Navigation</h2>
+  sidebar-content-down: null
+  navbar:
+    - href: /
+      label: Home
+    - href: /blog
+      label: Blog
+  footer: >
+    <a rel="license"
+    href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative
+    Commons License" style="border-width:0"
+    src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> This work is
+    licensed under a <a rel="license"
+    href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+    Attribution-ShareAlike 4.0 International License</a>.
+  buttons:
+    - href: https://anybrowser.org
+      imgsrc: /files/88x31/anybrowser3.gif
+      width: 88
+      height: 31
+    - href: https://www.mozilla.org/en-US/firefox/new/
+      imgsrc: /files/88x31/firefox.gif
+      width: 88
+      height: 31
+    - href: https://fediverse.party/
+      imgsrc: /files/88x31/join-fediverse.gif
+      width: 88
+      height: 31
+    - href: https://yesterweb.org/no-to-web3/
+      imgsrc: /files/88x31/noweb3.gif
+      width: 88
+      height: 31
+  buttons_container_html: |
+    <iframe src="//incr.easrng.net/badge?key=aesistrilswebsite" style="background: url(//incr.easrng.net/bg.gif);" title="increment badge" width="88" height="31" frameborder="0"></iframe>
+---
