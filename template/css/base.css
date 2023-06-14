@@ -7,8 +7,9 @@ these tended to confuse some people, so I only kept
 the images as variables */
 
 :root {
-    --header-image: url('https://sadhost.neocities.org/images/layouts/wp.jpeg');
-    --body-bg-image: url('/files/bgtile.png');
+    --header-image: url('/files/images/base/sparklebackground.gif');
+    /* --header-image: url('/files/images/james-webb-cliffs-resized.webp'); */
+    --body-bg-image: url('/files/images/base/bgtile.png');
 
     /* colors */
     --content: #43256E;
@@ -26,31 +27,32 @@ and then link it! Many fonts have separate files for each style
 */
 
 @font-face {
-    font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator.ttf);
+    font-family: FreePixel;
+    src: url(/files/fonts/freepixel/FreePixel.ttf);
 }
 
 @font-face {
-    font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator-Bold.ttf);
+    font-family: FreePixel;
+    src: url(/files/fonts/freepixel/FreePixel.ttf);
     font-weight: bold;
 }
 
 @font-face {
-    font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator-Bold.ttf);
+    font-family: FreePixel;
+    src: url(/files/fonts/freepixel/FreePixel.ttf);
     font-style: italic;
 }
 
 @font-face {
-    font-family: PixelOperator;
-    src: url(/files/fonts/pixeloperator/PixelOperator-Bold.ttf);
+    font-family: FreePixel;
+    src: url(/files/fonts/freepixel/FreePixel.ttf);
     font-style: italic;
     font-weight: bold;
 }
 
 body {
-    font-family: 'PixelOperator', sans-serif;
+    font-family: 'FreePixel', sans-serif;
+    font-size: 20px; 
     margin: 0;
     background-color: #08031A;
     /* you can delete the line below if you'd prefer to not use an image */
@@ -102,7 +104,8 @@ text-decoration:none; */
     /* if you want to put images IN the header, 
 you can add them directly to the <div id="header"></div> element! */
     background-image: var(--header-image);
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-repeat: repeat;
 }
 
 /* navigation section!! */
