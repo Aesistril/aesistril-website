@@ -28,22 +28,67 @@ baseyaml: |
     href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
     Attribution-ShareAlike 4.0 International License</a>.
   buttons:
-    - href: https://anybrowser.org
+    - href: //anybrowser.org
       imgsrc: /files/88x31/anybrowser3.gif
       width: 88
       height: 31
-    - href: https://www.mozilla.org/en-US/firefox/new/
+    - href: //www.mozilla.org/en-US/firefox/new/
       imgsrc: /files/88x31/firefox.gif
       width: 88
       height: 31
-    - href: https://fediverse.party/
+    - href: //fediverse.party/
       imgsrc: /files/88x31/join-fediverse.gif
       width: 88
       height: 31
-    - href: https://yesterweb.org/no-to-web3/
+    - href: //yesterweb.org/no-to-web3/
       imgsrc: /files/88x31/noweb3.gif
       width: 88
       height: 31
+    - imgsrc: /files/88x31/cutesocks.gif
+      width: 88
+      height: 31
+    - href: //debian.org
+      imgsrc: /files/88x31/debian.gif
+      width: 88
+      height: 31
+    - imgsrc: /files/88x31/hatemac_b.gif
+      width: 88
+      height: 31
+    - imgsrc: /files/88x31/hatems.gif
+      width: 88
+      height: 31
+    - imgsrc: /files/88x31/ipv6.gif
+      width: 88
+      height: 31
+    - imgsrc: /files/88x31/jobsritchie.gif
+      width: 88
+      height: 31
+    - imgsrc: /files/88x31/linux-p.gif
+      width: 88
+      height: 31
+    - href: //mastodon.social
+      imgsrc: /files/88x31/masto.gif
+      width: 88
+      height: 31
+    - href: //mozilla.org
+      imgsrc: /files/88x31/mozilla2.gif
+      width: 88
+      height: 31
+    - imgsrc: /files/88x31/neovim.gif
+      width: 88
+      height: 31
+    - imgsrc: /files/88x31/piracy.gif
+      width: 88
+      height: 31
+    - href: //sadgrl.online 
+      imgsrc: /files/88x31/sadgrlonline.gif
+      width: 88
+      height: 31
+    - href: //github.com/Aesistril/aesistril-website
+      imgsrc: /files/88x31/this-website-is-open-source.webp
+      width: 88
+      height: 31
+
   buttons_container_html: |
     <iframe src="//incr.easrng.net/badge?key=aesistrilswebsite" style="background: url(//incr.easrng.net/bg.gif);" title="increment badge" width="88" height="31" frameborder="0"></iframe>
 ---

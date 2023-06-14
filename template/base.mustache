@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <title>{{page-title}}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/base.css" rel="stylesheet">
@@ -38,9 +38,14 @@
         </aside></div>
       <footer id="footer" style="margin-top: 10px;">{{{footer}}}</footer>
         </div>
-    <div id="container" style="justify-content: center; align-items: center; display: flex; margin-top: 10px;">
+    <div id="container" style="justify-content: center; align-items: center; display: flex; margin-top: 10px; flex-wrap: wrap; max-width: 900px;">
         {{#buttons}}
-        <a href="{{{href}}}"><img src="{{{imgsrc}}}" width="{{{width}}}" height="{{{height}}}"></a>
+          {{#href}}
+            <a href="{{{href}}}"><img src="{{{imgsrc}}}" width="{{{width}}}" height="{{{height}}}"></a>
+          {{/href}}
+          {{^href}}
+            <img src="{{{imgsrc}}}" width="{{{width}}}" height="{{{height}}}">
+          {{/href}}
         {{/buttons}}
         {{{buttons_container_html}}}
     </div>
