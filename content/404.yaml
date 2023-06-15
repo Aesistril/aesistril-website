@@ -1,0 +1,9 @@
+---
+page-title: "404: Not Found"
+h1-title: "404: Not Found"
+explanation: "Page you are looking for doesn't exist. Here, lemmy show you the way back to home:"
+link-href: "/"
+link-text: "Click here to go back to home"
+
+{{{baseyaml}}}
+---

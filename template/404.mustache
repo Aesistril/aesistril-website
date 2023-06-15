@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{page-title}}</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1100">
+    <link href="/css/base.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="/files/oneko/oneko.js"></script>
+    <div id="container" style="margin-top: 35vh;">
+      <div id="flex">
+        <main>
+          <h1 style="text-align: center;">{{h1-title}}</h1>
+          <p style="text-align: center;">{{explanation}}</p>
+          <div style="display: flex;"><a href="{{{link-href}}}" style="display: block; margin-right: auto; margin-left: auto;">{{{link-text}}}</a></div>
+        </main>
+      </div>
+      <footer id="footer" style="margin-top: 10px">{{{footer}}}</footer>
+    </div>
+    <div id="container" style="justify-content: center; align-items: center; display: flex; margin-top: 10px; flex-wrap: wrap; max-width: 900px;">
+      {{#buttons}}
+        {{#href}}
+          <a href="{{{href}}}"><img src="{{{imgsrc}}}" width="{{{width}}}" height="{{{height}}}"/></a>
+        {{/href}}
+        {{^href}}
+          <img src="{{{imgsrc}}}" width="{{{width}}}" height="{{{height}}}"/>
+        {{/href}}
+      {{/buttons}}
+      {{{buttons_container_html}}}
+    </div>
+  </body>
+</html>

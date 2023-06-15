@@ -14,5 +14,6 @@ printf "DONE!"
 printf "\nBuilding pages with mustache... "
 mustache ./content/extensions.yaml/base.yaml ./content/index.yaml | mustache - ./template/base.mustache > ./build/index.html
 mustache ./content/extensions.yaml/base.yaml ./content/blog/index.yaml | mustache - ./template/blog/index.mustache > ./build/blog/index.html
+mustache ./content/extensions.yaml/base.yaml ./content/404.yaml | mustache - ./template/404.mustache > ./build/404.html
 printf "DONE!"
 printf "\nBuild Completed!\n"
