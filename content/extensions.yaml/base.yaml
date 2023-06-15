@@ -1,24 +1,28 @@
 ---
 baseyaml: |
-  sidebar-links:
-    - href: https://sadgrlonline.github.io/html-cheatsheet/
-      target: _blank
-      label: HTML Cheatsheet
-      nested: null
-    - href: https://sadgrl.online/webmastery/webmaster-links.html
-      target: _blank
-      label: Webmaster Links
-      nested: <ul>
-        <li><a href="https://sadgrl.online/webmastery/downloads/tiledbgs.html"target="_blank">Tiled BGs</a></li>
-        <li><a href="https://sadgrl.online/webmastery/downloads/fonts.html" target="_blank">Fonts</a></li>
-        </ul>
-  sidebar-content-up: <h2>Navigation</h2>
+  sidebar-section:
+    title: My Bookmarks
+    links:
+      - href: https://sadgrlonline.github.io/html-cheatsheet/
+        target: _blank
+        label: HTML Cheatsheet
+        nested: null
+      - href: https://sadgrl.online/webmastery/webmaster-links.html
+        target: _blank
+        label: Webmaster Links
+        nested: |
+          <ul>
+            <li><a href="https://sadgrl.online/webmastery/downloads/tiledbgs.html" target="_blank">Tiled BGs</a></li>
+            <li><a href="https://sadgrl.online/webmastery/downloads/fonts.html" target="_blank">Fonts</a></li>
+          </ul>
   sidebar-content-down: null
   navbar:
     - href: /
       label: Home
     - href: /blog
       label: Blog
+  header-html: |
+    <img src="/files/images/base/logo.png" alt="" style="margin-left: 20px; margin-top: auto; margin-bottom: auto; height: 100px; image-rendering: pixelated;">
   footer: >
     <a rel="license"
     href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative

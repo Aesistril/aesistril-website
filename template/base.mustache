@@ -4,14 +4,14 @@
     <title>{{page-title}}</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="css/base.css" rel="stylesheet" />
+    <link href="/css/base.css" rel="stylesheet" />
   </head>
   <body>
     <script src="/files/oneko/oneko.js"></script>
     <div id="container">
       <div id="headerArea">
         <div id="header" style="display: flex;">
-          <img src="/files/images/base/logo.png" alt="" style="margin-left: 20px; margin-top: auto; margin-bottom: auto; height: 100px; image-rendering: pixelated;">
+          {{{header-html}}}
         </div>
         <nav id="navbar" style="margin-bottom: 10px">
           <ul>
@@ -27,15 +27,17 @@
       <div id="flex">
         <main>{{{main}}}</main>
         <aside id="rightSidebar" style="margin-left: 10px">
-          {{{sidebar-content-up}}}
-          <ul>
-            {{#sidebar-links}}
-              <li>
-                <a href="{{{href}}}" target="{{{target}}}">{{{label}}}</a>
-              </li>
-              {{{nested}}}
-            {{/sidebar-links}}
-          </ul>
+          {{#sidebar-section}}
+            <h2>{{{title}}}</h2>
+            <ul>
+              {{#links}}
+                <li>
+                  <a href="{{{href}}}" target="{{{target}}}">{{{label}}}</a>
+                </li>
+                {{{nested}}}
+              {{/links}}
+            </ul>
+          {{/sidebar-section}}
           {{{sidebar-content-down}}}
         </aside>
       </div>
