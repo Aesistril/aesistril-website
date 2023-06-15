@@ -4,6 +4,10 @@ main: |
   <h1>Welcome to my Webbed Site!</h1>
   <p> Hiii! I'm a teenage developer from Turkey. I like infodumping people and writing down stuff I think at 3AM so I created this website!</p>
   <p> I occasionally post here, mostly about philosophy, technology, popular science and sometimes about current events. </p>
+  <h2>This place is still under construction!</h2>
+  <img src="/files/images/base/triangleconstruction.gif"/><img src="/files/images/base/warnconstruction.gif"/><img src="/files/images/base/triangleconstruction.gif"/>
+  <img src="/files/images/base/spinconstruction.gif"/><img src="/files/images/base/yellowconstruction.gif"/><img src="/files/images/base/spinconstruction.gif"/>
+  <img src="/files/images/base/blinkconstruction.gif"/><img src="/files/images/base/shovelconstruction.gif"/><img src="/files/images/base/excavatorconstruction.gif"/><img src="/files/images/base/blinkconstruction.gif"/>
 
 {{{baseyaml}}}
 ---
