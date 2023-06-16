@@ -1,20 +1,22 @@
 ---
 baseyaml: |
   sidebar-section:
-    title: My Bookmarks
-    links:
-      - href: https://sadgrlonline.github.io/html-cheatsheet/
-        target: _blank
-        label: HTML Cheatsheet
-        nested: null
-      - href: https://sadgrl.online/webmastery/webmaster-links.html
-        target: _blank
-        label: Webmaster Links
-        nested: |
-          <ul>
-            <li><a href="https://sadgrl.online/webmastery/downloads/tiledbgs.html" target="_blank">Tiled BGs</a></li>
-            <li><a href="https://sadgrl.online/webmastery/downloads/fonts.html" target="_blank">Fonts</a></li>
-          </ul>
+    - title: Blog
+      links:
+        - href: /blog/devlog
+          target: null
+          label: Devlogs
+          nested: null
+        - href: /blog/thoughts
+          target: null
+          label: Thoughts
+          nested: null
+    - title: My Bookmarks
+      links:
+        - href: //sadgrl.online
+          target: _blank
+          label: sadgrl.online
+          nested: null
   sidebar-content-down: null
   navbar:
     - href: /

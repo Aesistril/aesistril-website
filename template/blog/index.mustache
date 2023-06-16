@@ -25,14 +25,20 @@
       </div>
 
       <div id="flex">
-        <main>{{{main}}}</main>
+        <main>
+          <h1>{{h1-title}}</h1>
+          {{#posts}}
+            <h3 style="text-decoration: underline; margin-bottom: 0px"><a href="{{href}}">{{title}}</a></h3>
+            <p style="margin-top: 4px;">{{date}}</p>
+          {{/posts}}
+        </main>
         <aside id="rightSidebar" style="margin-left: 10px">
           {{#sidebar-section}}
             <h2>{{{title}}}</h2>
             <ul>
               {{#links}}
                 <li>
-                  <a href="{{{href}}}" target="{{{target}}}">{{{label}}}</a>
+                  <a href="{{{href}}}" target="{{{target}}}">{{label}}</a>
                 </li>
                 {{{nested}}}
               {{/links}}
