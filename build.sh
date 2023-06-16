@@ -20,6 +20,6 @@ mustache ./content/extensions.yaml/base.yaml ./content/blog/index.yaml | mustach
 mustache ./content/extensions.yaml/base.yaml ./content/blog/devlog/index.yaml | mustache - ./template/blog/index.mustache > ./build/blog/devlog/index.html
 mustache ./content/extensions.yaml/base.yaml ./content/blog/thoughts/index.yaml | mustache - ./template/blog/index.mustache > ./build/blog/thoughts/index.html
 mustache ./content/extensions.yaml/base.yaml ./content/blog/thoughts/ancestral-authority.yaml | mustache - ./template/base.mustache > ./build/blog/thoughts/ancestral-authority.html
-mustache ./content/extensions.yaml/base.yaml ./content/blog/devlog/curatedcrawl-alpha.yaml | mustache - ./template/base.mustache > ./build/blog/thoughts/curatedcrawl-alpha.html
+mustache ./content/extensions.yaml/base.yaml ./content/blog/devlog/curatedcrawl-alpha.yaml | mustache - ./template/base.mustache > ./build/blog/devlog/curatedcrawl-alpha.html
 printf "DONE!"
 printf "\nBuild Completed!\n"
