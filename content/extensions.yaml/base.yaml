@@ -17,6 +17,22 @@ baseyaml: |
           target: _blank
           label: sadgrl.online
           nested: null
+        - href: //maia.crimew.gay
+          target: _blank
+          label: maia.crimew.gay
+          nested: null
+        - href: //cinni.net
+          target: _blank
+          label: cinni.net
+          nested: null
+        - href: //neocities.org
+          target: _blank
+          label: neocities.org
+          nested: null
+        - href: //yesterweb.org
+          target: _blank
+          label: yesterweb.org
+          nested: null
   sidebar-content-down: null
   navbar:
     - href: /
