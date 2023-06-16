@@ -52,7 +52,7 @@ and then link it! Many fonts have separate files for each style
 
 body {
     font-family: 'FreePixel', sans-serif;
-    font-size: 20px; 
+    font-size: 18px; 
     margin: 0;
     background-color: #08031A;
     /* you can delete the line below if you'd prefer to not use an image */
@@ -202,9 +202,9 @@ h3 {
     color: #ED64F5;
 }
 
-h1 {
-    font-size: 25px;
-}
+/* h1 { */
+/*     font-size: 25px; */
+/* } */
 
 strong {
     /* this styles bold text */
