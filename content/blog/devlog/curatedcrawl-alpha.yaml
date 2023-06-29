@@ -1,7 +1,22 @@
 ---
 page-title: Aesistril's Website
 main: |
-  <h1>This page is empty</h1>
+  <h1 style="margin-bottom: 0px; margin-top: 0px;">CuratedCrawl did it's first search (ᗒᗨᗕ) Alpha release, future plans and possible full release date</h1>
+  <p style="margin-top: 4px">Written on 17th June 2023 at 12:50 PM</p>
+  <div style="display: inline-flex;"><img src="/files/images/gifs/cake_confetti.gif"><h1 style="display: inline;align-self: center;text-align: center;">AYO THE FIRST RELEASE IS HERE!</h1><img src="/files/images/gifs/confetti_hats.gif"></div>
+  <p>That's right the CuratedCrawl search engine just did its first successful search! The CLI client is so close to being production ready and will probably be pushed to the development branch in approximately 3 days!</p>
+  <h2>What is done so far</h2>
+  <p>Well even though there is still a lot to clean up (like missing documentation, unorganized code, etc.) I think the scraping and discovery infrastructure is ready for the first beta release!</p>
+  <p>This project was supposed to be a lot easier... There has been a lot of rebasing and starting over again which ultimately made everything much harder than it was.</p>
+  <p>The website is still not ready, like, there's not a single line of code regarding the web page which will actually serve the results and provide a user-friendly way to use the search engine. It shouldn't be hard to create though since I already got a proof of the concept version working.</p>
+  <p>I'm thinking of designing something like this as the web UI</p>
+  <img src="/files/images/article/cc-alpha/yahoo-old.webp" style="width: 600px">
+  <h2>Possible release date</h2>
+  <p>I can't say anything for sure but as far as I can guess it should be ready soon™</p>
+  <h2>I need your help!</h2>
+  <p>Now that Reddit has been burning since the last week, I don't know where to promote my search engine. Tumblr seems to be interested in neocities stuff though I don't know which tags I should be posting it in.</p>
+  <p>Another problem is preventing DoS attacks which can be done by spamming search queries and thus overwhelming the server. A solution I can think of is putting a captcha every 10 searches though that seems like a really user-hostile option.</p>
+  <div style="display: inline-flex;"><img src="/files/images/gifs/flying-at.gif" style="float: left;"><p>If you know where to promote CuratedCrawl or if you have solutions to the DoS problem email me at <a href="mailto:ae@aesistril.com">ae@aesistril.com</a></p></div>
 
 {{{baseyaml}}}
 ---
