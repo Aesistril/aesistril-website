@@ -10,6 +10,7 @@ mkdir ./build/blog/thoughts
 
 # Copy static files
 cp -r ./files ./build
+mv ./build/files/images/base/favicon.ico ./build/
 cp -r ./template/css ./build
 printf "DONE!"
 
