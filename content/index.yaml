@@ -6,6 +6,14 @@ main: |
   <p> Haiiiii ^_^ hi!! :3 haiiiiii hii I'm a teenage developer from Turkey! I like infodumping people and writing down stuff I think at 3AM so I created this website!</p>
   <p> I occasionally post here, mostly about philosophy, technology, popular science and sometimes about current events. And yes I got bullied a lot in high school :&gt;</p>
   <p style="color: #ED64F5;"> So sorry if the home page feels a bit empty. I'm still working on stuff like guestbooks etc. </p>
+  <h2>Webrings</h2>
+  <div class="LoopRingWrapper" style="display: flex;justify-content: space-between;"> 
+    <a href="https://loop.graycot.dev/webring.html?action=prev"> &lt; </a> 
+    <a href="https://loop.graycot.dev/webring.html?action=list">List</a> 
+    <a href="https://loop.graycot.dev/webring.html?action=home"> Loop Ring </a> 
+    <a href="https://loop.graycot.dev/webring.html?action=rand">Random</a> 
+    <a href="https://loop.graycot.dev/webring.html?action=next"> &gt; </a>
+  </div>
 
 {{{baseyaml}}}
 ---
