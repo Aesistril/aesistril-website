@@ -218,6 +218,14 @@ strong {
     padding: 10px;
 }
 
+/* Wrapper for webrings in index.html */
+.WebringWrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
 /* CSS for extras */
 
 #topBar {
