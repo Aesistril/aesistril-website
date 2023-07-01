@@ -1,6 +1,7 @@
 ---
 page-title: Posts tagged "devlog"
 h1-title: Blog posts tagged "devlog"
+tracker: https://analytics.aesistril.com/ingress/03f111d8-5159-4abd-90e3-1f6f3c78a2db/pixel.gif
 posts:
   - title: CuratedCrawl did it's first search (ᗒᗨᗕ) Alpha release, future plans and possible full release date
     href: /blog/devlog/curatedcrawl-alpha.html
