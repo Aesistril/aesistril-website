@@ -19,6 +19,12 @@ main: |
     <a href="https://cuddler-webring.netlify.app/"> Cuddler Webring </a> 
     <a href="https://cuddler-webring.netlify.app/aesistril/next"> &gt; </a>
   </div>
+  <div class="WebringWrapper">
+    <a href="https://hotlinewebring.club/aesistril/previous"> &lt; </a> 
+    <a href="https://hotlinewebring.club/"> Cuddler Webring </a> 
+    <a href="https://hotlinewebring.club/aesistril/next"> &gt; </a>
+  </div>
+
 
 {{{baseyaml}}}
 ---
