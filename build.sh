@@ -7,6 +7,7 @@ mkdir ./build
 mkdir ./build/blog
 mkdir ./build/blog/devlog
 mkdir ./build/blog/thoughts
+mkdir ./build/terry-tribute
 
 # Copy static files
 cp -r ./files ./build
@@ -22,5 +23,6 @@ mustache ./content/extensions.yaml/base.yaml ./content/blog/devlog/index.yaml | 
 mustache ./content/extensions.yaml/base.yaml ./content/blog/thoughts/index.yaml | mustache - ./template/blog/index.mustache > ./build/blog/thoughts/index.html
 mustache ./content/extensions.yaml/base.yaml ./content/blog/thoughts/ancestral-authority.yaml | mustache - ./template/base.mustache > ./build/blog/thoughts/ancestral-authority.html
 mustache ./content/extensions.yaml/base.yaml ./content/blog/devlog/curatedcrawl-alpha.yaml | mustache - ./template/base.mustache > ./build/blog/devlog/curatedcrawl-alpha.html
+mustache ./content/extensions.yaml/base.yaml ./content/terry-tribute/index.yaml | mustache - ./template/terry-tribute.mustache > ./build/terry-tribute/index.html
 printf "DONE!"
 printf "\nBuild Completed!\n"
