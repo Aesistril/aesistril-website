@@ -59,6 +59,7 @@ body {
     background-size: 65px;
     color: #fceaff;
     background-image: var(--body-bg-image);
+    image-rendering: pixelated;
 }
 
 * {
