@@ -17,7 +17,7 @@ main: |
   <h2>I need your help!</h2>
   <p>Now that Reddit has been burning since the last week, I don't know where to promote my search engine. Tumblr seems to be interested in neocities stuff though I don't know which tags I should be posting it in.</p>
   <p>Another problem is preventing DoS attacks which can be done by spamming search queries and thus overwhelming the server. A solution I can think of is putting a captcha every 10 searches though that seems like a really user-hostile option.</p>
-  <div style="display: inline-flex;"><img src="/files/images/gifs/flying-at.gif" style="float: left;"><p>If you know where to promote CuratedCrawl or if you have solutions to the DoS problem email me at <a href="mailto:aesistril@gmail.com">aesistril@gmail.com</a></p></div>
+  <div style="display: inline-flex;"><img src="/files/images/gifs/flying-at.gif" style="float: left;"><p>If you know where to promote CuratedCrawl or if you have solutions to the DoS problem email me at <a href="mailto:ae@aesistril.com">ae@aesistril.com</a></p></div>
 
 {{{baseyaml}}}
 ---
