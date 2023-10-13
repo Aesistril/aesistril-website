@@ -65,9 +65,6 @@ baseyaml: |
       imgsrc: /files/88x31/noweb3.gif
       width: 88
       height: 31
-    - imgsrc: /files/88x31/cutesocks.gif
-      width: 88
-      height: 31
     - href: //debian.org
       imgsrc: /files/88x31/debian.gif
       width: 88
@@ -101,7 +98,7 @@ baseyaml: |
     - imgsrc: /files/88x31/piracy.gif
       width: 88
       height: 31
-    - href: //sadgrl.online 
+    - href: //sadgrl.online
       imgsrc: /files/88x31/sadgrlonline.gif
       width: 88
       height: 31
