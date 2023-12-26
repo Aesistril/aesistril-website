@@ -237,6 +237,16 @@ strong {
     background-color: #13092D;
 }
 
+/* blink from HTML4 */
+.blink:not(.noblink) {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 /* BELOW THIS POINT IS MEDIA QUERY */
 
