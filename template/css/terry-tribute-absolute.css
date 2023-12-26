@@ -1,0 +1,51 @@
+:root {
+  /* Decoration */
+  --body-bg-image: url('/files/images/terry-tribute/bgtile.png');
+
+  /* Colors  */
+  --content-area-bg: white;
+
+  /* Aesistril responsive page design duct tape variables (TM)  */
+  --ae-width: 1100px; /* Virtual viewport width */
+  --ae-height: 700px; /* Virtual viewport height */
+  --ae-main-width: 800px; /* Main content area width */
+
+  /* Internal variables DONT TOUCH */
+  --aei-column-area-width: calc((var(--ae-width) - var(--ae-main-width))/2); /* Width of the columns */
+}
+
+* {
+  position: absolute;
+}
+
+.container {
+  position: relative !important; /* Frontend bois said this is required for absolute positioning soooo... */
+  width: var(--ae-width);
+  height: var(--ae-height);
+  left: calc(50vw - var(--ae-width)/2);
+}
+
+main {
+  left: var(--aei-column-area-width); /* Make one column width of a space to left */
+  width: var(--ae-main-width);
+  height: var(--ae-height);
+  background-color: var(--content-area-bg);
+}
+
+body {
+  background-image: var(--body-bg-image);
+}
+
+.column {
+  image-rendering: pixelated;
+  width: var(--aei-column-area-width);
+}
+
+.column.right {
+  left: calc(var(--ae-main-width) + var(--aei-column-area-width));
+}
+
+.column.middle {
+  top: 100px;
+}
+
