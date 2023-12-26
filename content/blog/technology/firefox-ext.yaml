@@ -1,0 +1,19 @@
+---
+page-title: no title
+tracker: about:blank
+main: |
+  <h1 style="margin-bottom: 0px; margin-top: 0px;">19 Best Firefox Extensions (6 of them are just for YouTube)</h1>
+  <p style="margin-top: 4px">Written on 5th October 2023 between at 10.00 PM</p>
+  <div class="blink" style="background: darkviolet;display: inline-block;margin-right: 10px;"><p class="noblink" style="display:inline;border: 6px ridge #ED64F5;">Open Source</p></div>
+  <h2 style="display:inline">uBlock Origin</h2>
+  <p>This is the best ad and tracker blocker ever! Not only it makes the browsing experience 100x better, it also makes the browser go super duper fast due to tons of trackers and ads it removes.</p>
+  <h2></h2>
+  <p></p>
+  <h2></h2>
+  <p></p>
+  <h2></h2>
+  <p></p>
+  <h2></h2>
+  <p></p>
+{{{baseyaml}}}
+---
