@@ -48,6 +48,7 @@ and then link it! Many fonts have separate files for each style
     src: url(/files/fonts/freepixel/FreePixel.ttf);
     font-style: italic;
     font-weight: bold;
+    ont-weight: bold;
 }
 
 body {
@@ -201,6 +202,12 @@ h1,
 h2,
 h3 {
     color: #ED64F5;
+}
+
+code {
+    font-family: FreePixel;
+    font-size: 18px;
+    font-style: monospace;
 }
 
 /* h1 { */
