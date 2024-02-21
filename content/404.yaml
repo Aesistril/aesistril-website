@@ -5,6 +5,7 @@ explanation: "Page you are looking for doesn't exist. Here, lemmy show you the w
 link-href: "/"
 link-text: "Click here to go back to home"
 tracker: https://analytics.aesistril.com/ingress/6db00845-8f8a-4bc0-a313-396d9a9a379f/pixel.gif
+stylesheet: /css/base.css
 
 {{{baseyaml}}}
 ---
