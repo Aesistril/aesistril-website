@@ -5,7 +5,8 @@ stylesheet: /css/base.css
 main: |
   <h1>Welcome to my Webbed Site!</h1>
   <p> Haiiiii ^_^ hi!! :3 haiiiiii hii I'm a teenage developer from Turkey! I like infodumping people and writing down stuff I think at 3AM so I created this website!</p>
-  <p> I occasionally post here, mostly about philosophy, technology, popular science and sometimes about current events. And yes I got bullied a lot in middle school :&gt;</p>
+  <p> I occasionally post here, mostly about philosophy, technology, popular science and sometimes about current events.</p>
+  <p style="color: #ED64F5;"> I can't post much these days because of an exam but I'll be right back in June &lt;3</p>
   <h2>Contact</h2>
   <p>My mail is ae at this domain. I might give you my other contacts (discord etc) if you mail me</p>
   <h3>Encryption</h3>
