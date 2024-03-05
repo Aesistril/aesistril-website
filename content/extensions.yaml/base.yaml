@@ -33,7 +33,6 @@ baseyaml: |
           target: _blank
           label: yesterweb.org
           nested: null
-  sidebar-content-down: null
   navbar:
     - href: /
       label: Home
