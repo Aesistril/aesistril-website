@@ -8,6 +8,7 @@ mkdir ./build/blog
 mkdir ./build/blog/devlog
 mkdir ./build/blog/thoughts
 mkdir ./build/blog/technology
+mkdir ./build/blog/coffee
 mkdir ./build/terry-tribute
 mkdir ./build/terry-tribute-absolute
 
@@ -28,6 +29,7 @@ mustache ./content/extensions.yaml/base.yaml ./content/blog/thoughts/index.yaml 
 mustache ./content/extensions.yaml/base.yaml ./content/blog/thoughts/ancestral-authority.yaml | mustache - ./template/base.mustache > ./build/blog/thoughts/ancestral-authority.html
 mustache ./content/extensions.yaml/base.yaml ./content/blog/devlog/curatedcrawl-alpha.yaml | mustache - ./template/base.mustache > ./build/blog/devlog/curatedcrawl-alpha.html
 mustache ./content/extensions.yaml/base.yaml ./content/blog/technology/firefox-ext.yaml | mustache - ./template/base.mustache > ./build/blog/technology/firefox-ext.html
+mustache ./content/extensions.yaml/base.yaml ./content/blog/coffee/moka-guide.yaml | mustache - ./template/base.mustache > ./build/blog/coffee/moka-guide.html
 
 # Terry Tribute (WIP)
 mustache ./content/extensions.yaml/base.yaml ./content/terry-tribute/index.yaml | mustache - ./template/terry-tribute.mustache > ./build/terry-tribute/index.html

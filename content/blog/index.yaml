@@ -3,6 +3,9 @@ page-title: Aesistril's Blog
 h1-title: Blog Posts
 tracker: https://analytics.aesistril.com/ingress/d645a70d-91b4-4d81-b596-bfb5a5f2cdf7/pixel.gif
 posts:
+  - title: The Moka Pot Guide
+    href: /blog/coffee/moka-guide.html
+    date: Written on 19th February 2024 12:50 PM
   - title: CuratedCrawl did it's first search (ᗒᗨᗕ) Alpha release, future plans and possible full release date
     href: /blog/devlog/curatedcrawl-alpha.html
     date: Written at 17th June 2023 8:30 PM

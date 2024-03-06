@@ -1,0 +1,36 @@
+---
+page-title: Aesistril's Website
+tracker: https://analytics.aesistril.com/ingress/443b4510-805d-4412-b611-7b688f8eeac7/pixel.gif
+stylesheet: /css/coffee.css
+main: |
+  <h1 style="margin-bottom: 0px; margin-top: 0px;">the moka pot guide</h1>
+  <p style="margin-top: 4px">Written on 19th February 2024 at 12:50 PM</p>
+  <p>These are some tips and tricks on the moka pot which I collected from forums and stuff</p>
+  <p>First of all, watch James Hoffmann's <a href="https://youtu.be/BfDLoIvb0w4">moka pot technique video</a>. You might watch another guide from someone else but this is one of the best guides on moka pot</p>
+  <p>You can also watch his <a href="https://youtu.be/zK0F5PqJ1Gk">"Understanding the Moka Pot"</a> video to get a deeper understanding and learn how he created the technique but that one is not essential for this guide</p>
+  <h2>Moka Pot</h2>
+  <p>Buy. An. Original. Bialetti. You might think "oh cmon this is just a pressure vessel and a cup how bad can the knockoffs be???". I thought like that too and bought a knockoff called "tohana"</p>
+  <p>The "tohana" was <b>IMPRESSIVELY BAD</b>. It didn't even work at first, I had to seal it with PTFE tape for it to properly build up pressure. And even after that it still somehow produced ashy coffee with that throat burning sensation.</p>
+  <h2>The Grinder</h2>
+  <p>I would highly recommend Timemore C3 or Kingrinder K4/K6</p>
+  <p>But any burr grinder would work. Moka pots don't not need an extremely precise grind and freshly ground beans are always better than preground</p>
+  <p>Finer the grind, more extraction you'll get and grinding too fine will lead to bitterness. Low quality grinders leaving very fine particles in a coarse grind will also lead to bitterness</p>
+  <p>Use <a href="https://honestcoffeeguide.com/coffee-grind-size-chart/">this site</a> to find the right grind setting for your grinder</p>
+  <h2>Dosing, Puck Preparation</h2>
+  <p>A three cup moka pot should only take 18-20 grams of coffee</p>
+  <p>Tamping is a horrible idea. I nearly broke my moka when I tried tamping the basket. Tamped coffee was also horribly sour due to channeling</p>
+  <img src="/files/images/article/moka-pot/leaking-moka.jpg" alt="image of a moka pot leaking due to high pressure">
+  <p>Packing the grounds tighter will not result in a more "espresso-like" coffee, it will just lead to a burnt cup</p>
+  <p>Do not tamp it, push it or hit it on the countertop. Just pour your ground coffee in the basket and flatten it with a card without compressing it. You may also tap on the sides.</p>
+  <h2>Milk Drinks</h2>
+  <img src="/files/images/article/moka-pot/frother.jpg" alt="image of a stick milk frother" style="width: 90%;">
+  <p>Removing the moka pot earlier can result in unwanted sourness (not to be confused with bitterness). I also don't think this technique would work for every bean and every moka size, but still worth a try.p>I have never tried a milk frothing wand like this but many people on the internet say those are a waste of time so I use a french press to froth my milk instead.</p>
+  <p>Another thing I noticed is that if you remove the moka pot earlier than usual (before the sputtering phase, right after coffee starts to get thinner) you get a less watery shot which is much more suitable for milk drinks.</p>
+  <p>But beware removing the moka pot earlier can result in unwanted sourness (not to be confused with bitterness). I also don't think this technique would work for every bean and every moka size, but still worth a try.</p>
+  <h2>Troubleshooting</h2>
+  <p></p>
+  <p></p>
+  <h2></h2>
+
+{{{baseyaml}}}
+---
