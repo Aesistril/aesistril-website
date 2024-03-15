@@ -28,6 +28,11 @@ and then link it! Many fonts have separate files for each style
 */
 
 @font-face {
+    font-family: ParklaneNF;
+    src: url(/files/fonts/parklane.ttf);
+}
+
+@font-face {
     font-family: FreePixel;
     src: url(/files/fonts/freepixel/FreePixel.ttf);
 }
@@ -58,7 +63,7 @@ body {
     margin: 0;
     background-color: #08031A;
     /* you can delete the line below if you'd prefer to not use an image */
-    background-size: 65px;
+    background-size: 128px;
     color: #fceaff;
     background-image: var(--body-bg-image);
     image-rendering: pixelated;
