@@ -38,8 +38,6 @@ baseyaml: |
       label: Home
     - href: /blog
       label: Blog
-  header-html: |
-    <img src="/files/images/base/logo.png" alt="" style="margin-left: 20px; margin-top: auto; margin-bottom: auto; height: 100px; image-rendering: pixelated;">
   footer: >
     <a rel="license"
     href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative

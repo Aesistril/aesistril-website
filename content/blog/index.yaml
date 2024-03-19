@@ -1,5 +1,7 @@
 ---
 page-title: Aesistril's Blog
+header-html: |
+  <img src="/files/images/base/logo.png" alt="" style="margin-left: 20px; margin-top: auto; margin-bottom: auto; height: 100px; image-rendering: pixelated;">
 h1-title: Blog Posts
 tracker: https://analytics.aesistril.com/ingress/d645a70d-91b4-4d81-b596-bfb5a5f2cdf7/pixel.gif
 posts:

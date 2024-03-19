@@ -1,5 +1,7 @@
 ---
 page-title: Posts tagged "technology"
+header-html: |
+  <img src="/files/images/base/logo.png" alt="" style="margin-left: 20px; margin-top: auto; margin-bottom: auto; height: 100px; image-rendering: pixelated;">
 h1-title: Blog posts tagged "technology"
 tracker: https://analytics.aesistril.com/ingress/70029600-1548-4e0d-9523-2fe31e417ab3/pixel.gif
 posts:
