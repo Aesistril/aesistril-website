@@ -110,6 +110,22 @@ you can add them directly to the <div id="header"></div> element! */
     background-repeat: repeat;
 }
 
+#headerText {
+    font-family: ParklaneNF;
+    font-size: 80px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    margin-left: 40px;
+}
+
+#headerLogo {
+    height: 100px;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto; 
+    image-rendering: pixelated;
+}
+
 /* navigation section!! */
 #navbar {
     height: 40px;
