@@ -8,11 +8,12 @@ main: |
   <p> I occasionally post here, mostly about philosophy, technology, popular science and sometimes about current events.</p>
   <p style="color: #ED64F5;"> I can't post much these days because of an exam but I'll be right back in June &lt;3</p>
   <h2>Contact</h2>
-  <p>My mail is ae at this domain. I might give you my other contacts (discord etc) if you mail me</p>
+  <p>My contact email is ae@aesistril.com. I might give you my other contacts (discord etc) if you mail me</p>
   <h3>Encryption</h3>
   <p>Import my PGP key: <code>curl https://aesistril.com/files/pgp.asc | gpg --import</code></p>
     <p>Run <code>gpg -r ae@aesistril.com -e -a</code></p>
-  <p>Type your message and press CTRL+d</p>
+  <p>Type your message, press CTRL+d and send me the output</p>
+  <p>Fingerprint: 2B40 B9C3 5B5B 35F8 866A  FECF 9593 8DED B7C6 C9FD</p>
   <p>Send me your public key if you want an encrypted reply</p>
   <div style="display: inline-flex;"><img src="/files/images/gifs/guestbook.gif"><h2>Sign My Guestbook!!!</h2><img src="/files/images/gifs/guestbook.gif"></div>
   <iframe src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82185-02" class="gbIframe"></iframe>
