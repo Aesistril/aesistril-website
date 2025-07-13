@@ -4,46 +4,18 @@
     <title>{{page-title}}</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1100">
-    <link href="{{{stylesheet}}}" rel="stylesheet" />
-    <link rel="me" href="https://toot.community/@yogurtwrong"></link>
+    <link href="/css/base.css" rel="stylesheet" />
   </head>
   <body>
     <script src="/files/oneko/oneko.js"></script>
-    <div id="container">
-      <div id="headerArea">
-        <div id="header" style="display: flex;">
-          {{{header-html}}}
-        </div>
-        <nav id="navbar" style="margin-bottom: 10px">
-          <ul>
-            {{#navbar}}
-              <li>
-                <a href="{{href}}">{{label}}</a>
-              </li>
-            {{/navbar}}
-          </ul>
-        </nav>
-      </div>
-
+    <div id="container" style="margin-top: 35vh;">
       <div id="flex">
         <main>
           <!-- <img src="{{{tracker}}}"> -->
-          {{{main}}}
+          <h1 style="text-align: center;">We'll be back soon!</h1>
+          <p style="text-align: center;">This website is currently being renovated. Please come back in a week</p>
+          <div style="display: flex;"><a href="{{{link-href}}}" style="display: block; margin-right: auto; margin-left: auto;">{{{link-text}}}</a></div>
         </main>
-        <aside id="rightSidebar" style="margin-left: 10px">
-          {{#sidebar-section}}
-            <h2>{{{title}}}</h2>
-            <ul>
-              {{#links}}
-                <li>
-                  <a href="{{{href}}}" target="{{{target}}}">{{{label}}}</a>
-                </li>
-                {{{nested}}}
-              {{/links}}
-            </ul>
-          {{/sidebar-section}}
-          <iframe width="180" height="180" style="border:none; margin-left: -10px;" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
-        </aside>
       </div>
       <footer id="footer" style="margin-top: 10px">{{{footer}}}</footer>
     </div>
